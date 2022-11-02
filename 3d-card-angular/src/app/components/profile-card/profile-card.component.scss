@@ -1,6 +1,6 @@
 .parallax {
-  height: 600px;
-  width: 400px;
+  height: 37.5rem;
+  width: 25rem;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -13,25 +13,27 @@
   }
 
   .profile {
-      width: 200px;
-      height: 400px;
+      width: 20rem;
+      height: 30rem;
       border-radius: 1rem;
       background-color: #FFF;
+      text-align: center;
 
       .profile-header {
           position: relative;
           height: 180px;
 
           img {
+              width: 100%;
               border-radius: 1rem;
           }
 
           .profile-header-picture {
               position: absolute;
               top: 50px;
-              left: 41px;
-              width: 118px;
-              height: 118px;
+              left: 80px;
+              width: 10rem;
+              height: 10rem;
               margin: 0 auto;
               background-image: url('/assets/profile-picture.jpg');
               background-position: center;
@@ -39,34 +41,39 @@
               border-radius: 50%;
           }
 
-          .profile-header-plus {
+          .profile-badge {
               display: inline-block;
               position: absolute;
-              left: 120px;
-              top: 135px;
+              left: 190px;
+              top: 165px;
               color: #DDD;
               border-radius: 50%;
-              background-color: #FFF;
-              padding: 8px;
               -webkit-box-shadow: 2.5px 5px 5px 0px #00000010;
               box-shadow: 2.5px 5px 5px 0px #00000010;
               cursor: pointer;
 
-              svg {
-                  width: 24px;
-                  height: 24px;
+              mat-icon {
+                  width: 3rem;
+                  height: 3rem;
                   vertical-align: middle;
               }
           }
       }
 
       .profile-content {
-          padding: 0 1rem 1rem 1rem;
+          margin-top: 3rem;
+          padding: 0 1rem 0 1rem;
           height: 220px;
 
           .profile-content-title {
-              font-family: 'Oswald', sans-serif;
               font-size: 1.25rem;
+              line-height: 1.5rem;;
+              font-family: 'Oswald', sans-serif;
+              padding: 1rem 0;
+          }
+
+          p {
+              padding: 0.5rem;
           }
 
           .profile-content-btn {
