@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 
   & * {
       transform-style: preserve-3d;
@@ -16,7 +17,9 @@
       width: 20rem;
       height: 30rem;
       border-radius: 1rem;
-      background-color: #FFF;
+      background-color: #7a7a7a10;
+      // -webkit-filter: blur(0px);
+      // filter: blur(0px);
       text-align: center;
 
       .profile-header {

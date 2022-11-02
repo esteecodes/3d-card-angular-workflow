@@ -4,5 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(#f3f3f3, #9c9c9c);
+  background-image: url('/assets/background-main-dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:before {
+    content: '';
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+  }
+
 }
